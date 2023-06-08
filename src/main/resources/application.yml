@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    enabled: true
+
+    check-template: true
+
+    # View의 파일 경로를 지정하기 위한 설정
+    prefix: classpath:/templates/ # ".html" 파일 경로
+
+    # View의 파일 확장자 지정
+    suffix: .html # 파일 확장자
+    cache: false
+
+server:
+  port: 8081
